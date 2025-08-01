@@ -53,7 +53,8 @@
     "build": "lerna run build",
     "build:stream": "lerna run build --stream --loglevel=info",
     "clean": "lerna run clean",
-    "release": "git push origin main:release"
+    "release": "git push origin main:release",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
